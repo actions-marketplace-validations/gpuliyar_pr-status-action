@@ -1,5 +1,5 @@
 # PR Status Github Action
-Github Action to set Github PR with a Context and a Status. It is useful for developers to dynamically create a Context in a PR and set Status to it. The action can be used to create a Context in a PR that can act as a bridge between two different actions. 
+Github Action to set a PR with a Context and a Status. It is useful for developers to dynamically create a Context in a PR that can act as a bridge between two different actions. Like, one action can set the Context to "pending" state and lock the PR and a different action can set the same Context to "success" or "failure" state that can further dictate if the PR can be merged.
 
 ## Inputs
 
